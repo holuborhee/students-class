@@ -53,7 +53,7 @@ describe('UnderGraduate Class', () => {
     done();
   });
 
-  it('should return A for Grade', (done) => {
+  it('should return B for Grade', (done) => {
     expect(underGrad.grade).to.be.a('String').and.to.equal('B');
     done();
   })
